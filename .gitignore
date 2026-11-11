@@ -1,0 +1,12 @@
+# Streamlit 로컬 시크릿 파일 (API 키 보관)
+.streamlit/secrets.toml
+
+# 파이썬 가상환경 및 캐시 파일
+.venv/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+
+# 환경 변수 파일
+.env
