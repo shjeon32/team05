@@ -8,7 +8,7 @@
 
 ## 실행 방법
 1. `pip install -r requirements.txt`
-2. `.streamlit/secrets.toml`에 기상청 API 키 입력
+2. `.streamlit/secrets.toml`에 기상청 API 키 입력(기상청 API허브 가입 및 로그인>지상관측>일자료(기간조회)URL 사용)
 3. `streamlit run app.py`
    
 ## 사용 라이브러리
