@@ -9,7 +9,7 @@ import streamlit as st
 
 # 기상청 기간 일 관측 API 엔드포인트 및 인증키
 API_BASE_URL = "https://apihub.kma.go.kr/api/typ01/url/kma_sfcdd3.php"
-AUTH_KEY = st.secrets.get("AUTH_KEY")
+AUTH_KEY = "cDzxUQ5sScu88VEObKnLyA"
 
 
 def load_kma_data(
