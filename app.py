@@ -14,8 +14,14 @@ DEFAULT_CSV_PATH = "keyword_폭염.csv"
 
 def get_api_key() -> str:
     """Streamlit Secrets 또는 사이드바 입력창에서 API 키를 안전하게 획득합니다."""
-    if "KMA_AUTH_KEY" in st.secrets:
-        return st.secrets["KMA_AUTH_KEY"]
+    # 1. secrets 파일이 존재하고 키가 있는지 안전하게 확인
+    try:
+        if "KMA_AUTH_KEY" in st.secrets:
+            return st.secrets["KMA_AUTH_KEY"]
+    except Exception:
+        pass
+
+    # 2. 로컬 컴퓨터에 secrets.toml이 없으면 사이드바 입력창 제공
     return st.sidebar.text_input(
         "기상청 API 키 입력 (선택)",
         type="password",
