@@ -12,5 +12,11 @@
 3. `streamlit run app.py`
    
 ## 사용 라이브러리
+streamlit
+pandas
+requests
+matplotlib
+seaborn
 
 ## 앱 실행 화면
+<img width="1881" height="925" alt="image" src="https://github.com/user-attachments/assets/cf0927e8-668c-4afd-9f74-93fe9e25d1ab" />
