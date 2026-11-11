@@ -13,22 +13,22 @@ https://team05-9vnswd6v3mquusikp5vogd.streamlit.app/
 
 1. 저장소 복제 (GitHub에 업로드된 프로젝트 코드를 로컬 컴퓨터로 내려받습니다)
 
-'git clone https://github.com/shjeon32/team05.git'
+`git clone https://github.com/shjeon32/team05.git`
 
 
 2. 프로젝트 디렉토리 이동 (다운로드한 프로젝트 폴더 내부로 진입합니다)
 
-'cd team05'
+`cd team05`
 
 
 3. 필수 라이브러리 설치 (실행에 필요한 외부 패키지들을 일괄 설치합니다)
 
-'pip install -r requirements.txt'
+`pip install -r requirements.txt`
 
 
 4. Streamlit 웹 애플리케이션 실행 (로컬 웹 서버를 구동하여 브라우저에서 대시보드를 엽니다)
 
-'streamlit run app.py'
+`streamlit run app.py`
 
 5. 구글 트렌드 검색량 CSV 파일 업로드
 
